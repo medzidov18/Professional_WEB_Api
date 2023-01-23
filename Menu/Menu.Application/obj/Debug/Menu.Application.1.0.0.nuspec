@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Menu.Application</id>
+    <version>1.0.0</version>
+    <authors>Menu.Application</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\bin\Debug\net5.0\Menu.Application.dll" target="lib\net5.0\Menu.Application.dll" />
+  </files>
+</package>

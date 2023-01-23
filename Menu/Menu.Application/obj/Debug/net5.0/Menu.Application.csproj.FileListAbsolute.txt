@@ -1,0 +1,12 @@
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\bin\Debug\net5.0\Menu.Application.deps.json
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\bin\Debug\net5.0\Menu.Application.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\bin\Debug\net5.0\Menu.Application.pdb
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.csproj.AssemblyReference.cache
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.AssemblyInfoInputs.cache
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.AssemblyInfo.cs
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\refint\Menu.Application.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.pdb
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\ref\Menu.Application.dll
