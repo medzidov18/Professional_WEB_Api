@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wPa1T2gbssGq9IYHAIIEtqs1aEiPMsoR/EP6JmwzsFFj+a03PwtRTkUEg7x2zCAogkPMJ/nefCb8wcg+M+98yg==",
+  "dgSpecHash": "v4o4IEIFo9qnwBYB5N8l6GD5wAaw1zTX+L6TIEYkhbYZbE9V63UZ5wKfzuoWqVAu7nYsN+Um66zCQSGephSQmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Projects\\Professional_WEB_Api\\Menu\\Menu.Application\\Menu.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
