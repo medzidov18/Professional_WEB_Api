@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
+using Menu.Application.Common.Exceptions;
 using Menu.Application.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,7 +15,19 @@ namespace Menu.Application.Products.Commands.UpdateProduct
 
         public async Task<Unit> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
-            var entity = await _dbContext.Menus.FirstOrDefaultAsync(product => product.Id == request.Id, cancellationToken)
+            var entity =
+                await _dbContext.Menus.FirstOrDefaultAsync(product => product.Id == request.Id, cancellationToken);
+
+            if (entity == null || entity.MenuId != request.MenuId)
+            {
+                throw new NotFoundException(nameof(Domain.Menu), request.Id);
+            }
+
+            entity.Name = request.Name;
+            entity.Description = request.Description;
+            entity.Price = request.Price;
+
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return Unit.Value;
         }
