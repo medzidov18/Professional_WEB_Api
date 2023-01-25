@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ii61gDQLaTHDF7hTTNRTETTlpt0ij2l5ObArUrRT9k7sG9ZgDFzZV8t22IMKUiejrqftdY2R24vKUBuzk3qinw==",
+  "dgSpecHash": "FCjh/w3FNyI3rMNu4B3sz/4ZUhpmu4PvTF3iHvIP85F9Myipw9uBSY0xMSb57QHx/70ZRJRfDBU+jcGUBnarSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Projects\\Professional_WEB_Api\\Menu\\Menu,Persistence\\Menu,Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.5\\microsoft.data.sqlite.core.5.0.5.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
