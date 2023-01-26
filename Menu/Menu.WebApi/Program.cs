@@ -6,6 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Menu.Persistence;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Menu.WebApi
 {
@@ -13,7 +15,23 @@ namespace Menu.WebApi
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var host = CreateHostBuilder(args).Build();
+
+            host.Run();
+
+            using (var scope = host.Services.CreateScope())
+            {
+                var serviceProvider = scope.ServiceProvider;
+                try
+                {
+                    var context = serviceProvider.GetRequiredService<MenuDbContext>();
+                    DbInitializer.Initialize(context);
+                }
+                catch (Exception exception)
+                {
+
+                }
+            }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

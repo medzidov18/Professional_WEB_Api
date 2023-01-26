@@ -6,19 +6,35 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using Menu.Application;
+using Menu.Application.Common.Mappings;
+using Menu.Application.Interfaces;
+using Menu.Persistence;
+using Microsoft.Extensions.Configuration;
 
 namespace Menu.WebApi
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        public IConfiguration Configuration { get; }
+
+        public Startup(IConfiguration configuration) => Configuration = configuration;
+
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(config =>
+            {
+                config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
+                config.AddProfile(new AssemblyMappingProfile(typeof(IMenuDbContext).Assembly));
+            });
+
+            services.AddApplication();
+            services.AddPersistence(Configuration);
+            services.AddCors();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
