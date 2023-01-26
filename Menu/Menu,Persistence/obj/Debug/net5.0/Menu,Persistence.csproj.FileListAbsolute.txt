@@ -1,0 +1,17 @@
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\bin\Debug\net5.0\Menu,Persistence.deps.json
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\bin\Debug\net5.0\Menu,Persistence.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\bin\Debug\net5.0\Menu,Persistence.pdb
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\bin\Debug\net5.0\Menu.Application.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\bin\Debug\net5.0\Menu.Domain.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\bin\Debug\net5.0\Menu.Application.pdb
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\bin\Debug\net5.0\Menu.Domain.pdb
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\Menu,Persistence.csproj.AssemblyReference.cache
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\Menu,Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\Menu,Persistence.AssemblyInfoInputs.cache
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\Menu,Persistence.AssemblyInfo.cs
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\Menu,Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\Menu,Persistence.csproj.CopyComplete
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\Menu,Persistence.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\refint\Menu,Persistence.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\Menu,Persistence.pdb
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu,Persistence\obj\Debug\net5.0\ref\Menu,Persistence.dll

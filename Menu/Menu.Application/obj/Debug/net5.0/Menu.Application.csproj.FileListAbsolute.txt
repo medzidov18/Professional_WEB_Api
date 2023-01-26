@@ -10,3 +10,6 @@ C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5
 C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\refint\Menu.Application.dll
 C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.pdb
 C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\ref\Menu.Application.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\bin\Debug\net5.0\Menu.Domain.dll
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\bin\Debug\net5.0\Menu.Domain.pdb
+C:\Users\Asus\Projects\Professional_WEB_Api\Menu\Menu.Application\obj\Debug\net5.0\Menu.Application.csproj.CopyComplete
